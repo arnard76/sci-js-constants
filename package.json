@@ -1,0 +1,37 @@
+{
+  "name": "sci-js-constants",
+  "version": "1.0.0",
+  "description": "Javascript Equivalent of Python's SciPy constants module",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.prod.json",
+    "test:unit": "vitest",
+    "test": "npm run test:unit -- --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnard76/sci-js-constants.git"
+  },
+  "keywords": [
+    "science",
+    "constants",
+    "scipy",
+    "codata",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Arnav Shekaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnard76/sci-js-constants/issues"
+  },
+  "homepage": "https://github.com/arnard76/sci-js-constants#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
