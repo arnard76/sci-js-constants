@@ -2,7 +2,8 @@
   "name": "sci-js-constants",
   "version": "1.0.0",
   "description": "Javascript Equivalent of Python's SciPy constants module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "test": "tests"
   },
